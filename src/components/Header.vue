@@ -12,7 +12,7 @@
       </div>
       <div class="midle-header">
         <img src="../assets/fsd_logo.png" />
-        <h1>FREE SISTERS BODY</h1>
+        <h3>FREE SISTERS BODY</h3>
       </div>
 
       <div class="right-header">
@@ -31,7 +31,6 @@
         </b-button>
       </div>
     </div>
-    <hr />
   </div>
 </template>
 
@@ -48,8 +47,8 @@ export default {};
 .midle-header {
   flex: 1;
 }
-.midle-header img {
-  width: 250px;
+.midle-header h3 {
+  font-weight: 800;
 }
 
 .left-header,
