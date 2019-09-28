@@ -11,21 +11,21 @@
           <b-nav-item>Video</b-nav-item>
         </ul>
       </div>
-      <div class="footer-social">
-        <b-button pill variant="outline-danger">
+      <div class="footer-social btn-social">
+        <b-button variant="outline">
           <i class="fa fa-facebook"></i>
         </b-button>
-        <b-button pill variant="outline-danger">
+        <b-button variant="outline">
           <i class="fa fa-twitter"></i>
         </b-button>
-        <b-button pill variant="outline-danger">
+        <b-button variant="outline">
           <i class="fa fa-google-plus"></i>
         </b-button>
-        <b-button pill variant="outline-danger">
+        <b-button variant="outline">
           <i class="fa fa-facebook_messenger"></i>
         </b-button>
       </div>
-      <hr class="brown" />
+      <hr class="b-brown " />
       <p class="brown copyright">Free Sister Body Copyright © 2019</p>
     </div>
   </footer>

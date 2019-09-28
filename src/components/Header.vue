@@ -15,18 +15,18 @@
         <h3>FREE SISTERS BODY</h3>
       </div>
 
-      <div class="right-header">
+      <div class="right-header btn-social">
         <button class="btn-sp">Support</button>
-        <b-button pill variant="outline-danger">
+        <b-button variant="outline">
           <i class="fa fa-facebook"></i>
         </b-button>
-        <b-button pill variant="outline-danger">
+        <b-button variant="outline">
           <i class="fa fa-twitter"></i>
         </b-button>
-        <b-button pill variant="outline-danger">
+        <b-button variant="outline">
           <i class="fa fa-google-plus"></i>
         </b-button>
-        <b-button pill variant="outline-danger">
+        <b-button variant="outline">
           <i class="fa fa-facebook_messenger"></i>
         </b-button>
       </div>
@@ -57,6 +57,7 @@ export default {};
 }
 .right-header {
   text-align: right;
+  padding: 15px
 }
 ul {
   list-style-type: none;
@@ -89,22 +90,6 @@ li a:hover:not(.active) {
   color: #c81e0f;
 }
 
-/* Style buttons */
-.btn {
-  background-color: transparent; /* Blue background */
-  border: none; /* Remove borders */
-  color: #b58b6b; /* White text */
-  /*padding: 12px 12px;*/ /* Some padding */
-  font-size: 12px; /* Set a font size */
-  font-weight: bold;
-  cursor: pointer; /* Mouse pointer on hover */
-  border: thin solid #b58b6b;
-  margin-right: 5px;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-}
-
 .btn-sp {
   background-color: #b58b6b; /* Blue background */
   border: none; /* Remove borders */
@@ -117,9 +102,6 @@ li a:hover:not(.active) {
   text-transform: uppercase;
   font-weight: bold;
 }
-
-/* Darker background on mouse-over */
-.btn:hover,
 .btn-sp:hover {
   color: #111;
   border-color: #111;
