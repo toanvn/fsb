@@ -1,6 +1,6 @@
 <template>
   <div class="main-content">
-    <home-page></home-page>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -10,9 +10,6 @@ export default {
   name: 'Content',
   props: {
     msg: String
-  },
-  components: {
-    'home-page': HomePage
   }
 }
 </script>

@@ -3,11 +3,11 @@
     <div class="header">
       <div class="left-header">
         <b-nav>
-          <b-nav-item active>Home</b-nav-item>
-          <b-nav-item>About</b-nav-item>
-          <b-nav-item>Our Work</b-nav-item>
-          <b-nav-item >Press</b-nav-item>
-          <b-nav-item >Video</b-nav-item>
+          <b-nav-item  to="/">Home</b-nav-item>
+          <b-nav-item  to="about">About</b-nav-item>
+          <b-nav-item to="our-work">Our Work</b-nav-item>
+          <b-nav-item to="press">Press</b-nav-item>
+          <b-nav-item to="video">Video</b-nav-item>
         </b-nav>
       </div>
       <div class="midle-header">
@@ -85,7 +85,7 @@ li a:hover:not(.active) {
   color: #c81e0f;
 }
 
-.active {
+.router-link-exact-active {
   /* background-color: #4caf50; */
   color: #c81e0f;
 }

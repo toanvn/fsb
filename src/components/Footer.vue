@@ -4,11 +4,11 @@
       <h3 class="brown">Free Sisters Body</h3>
       <div class="footer-nav">
         <ul class="center-nav">
-          <b-nav-item active>Home</b-nav-item>
-          <b-nav-item>About</b-nav-item>
-          <b-nav-item>Our Work</b-nav-item>
-          <b-nav-item>Press</b-nav-item>
-          <b-nav-item>Video</b-nav-item>
+          <b-nav-item  to="/">Home</b-nav-item>
+          <b-nav-item  to="about">About</b-nav-item>
+          <b-nav-item to="our-work">Our Work</b-nav-item>
+          <b-nav-item to="press">Press</b-nav-item>
+          <b-nav-item to="video">Video</b-nav-item>
         </ul>
       </div>
       <div class="footer-social btn-social">
@@ -56,6 +56,10 @@ export default {};
 .center-nav li a{
     color: #fff;
     font-size: 16px;
+}
+.center-nav li a.router-link-exact-active {
+  /* background-color: #4caf50; */
+  color: #c81e0f;
 }
 .copyright{
     font-size: 12px;
