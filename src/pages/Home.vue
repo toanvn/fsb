@@ -15,9 +15,7 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        :img-src="require('../assets/slide-show/usethis.jpg')"
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
@@ -42,7 +40,7 @@
         </template>
       </b-carousel-slide>
     </b-carousel>
-    <div class="h_main_content">
+    <div class="main_content">
       <div class="h_video">
         <iframe
           width="100%"
@@ -66,16 +64,16 @@
       </div>
       <div class="h_gallery">
         <img
-          src="https://picsum.photos/1024/480/?image=55"
-          alt="image slot"
+          src="../assets/Freesistersbody-home-photo1.jpg"
+          alt="Freesistersbody-home-photo"
         />
         <img
-          src="https://picsum.photos/1024/480/?image=55"
-          alt="image slot"
+          src="../assets/Freesistersbody-home-photo2.jpg"
+          alt="Freesistersbody-home-photo"
         />
         <img
-          src="https://picsum.photos/1024/480/?image=55"
-          alt="image slot"
+          src="../assets/Freesistersbody-home-photo3.jpg"
+          alt="Freesistersbody-home-photo"
         />
       </div>
     </div>
@@ -106,12 +104,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.h_main_content {
-  width: 50%;
-  margin: 0 auto;
-  text-align: justify;
-  margin-top: 46px;
 }
 
 .h_header {
